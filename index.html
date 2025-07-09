@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV -Phan Văn Nhạc</title>
+    <!-- Favicon -->
+    <!-- Reset Css -->
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <!-- Font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Style css -->
+    <link rel="stylesheet" href="./assets/style.css" />
+    <!-- Responsive -->
+    <link rel="stylesheet" href="./assets/responsive.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <div class="header__top">
+        <figure>
+          <img src="./img/ronaldo.jpg.webp" class="header__avatar" alt="" />
+        </figure>
+      </div>
+      <nav class="nav">
+        <ul class="nav__list js-nav__list">
+          <li class="nav__item">
+            <a href="#about" class="nav__link active">ABOUT ME</a>
+          </li>
+          <li class="nav__item">
+            <a href="#education" class="nav__link">EDUCATION</a>
+          </li>
+          <li class="nav__item">
+            <a href="#project" class="nav__link">PROJECTS</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skill" class="nav__link">SKILLS</a>
+          </li>
+          <li class="nav__item">
+            <a href="#achievement " class="nav__link">ACHIEVEMENTS</a>
+          </li>
+          <li class="nav__item">
+            <a href="#hobbies" class="nav__link">HOBBIES</a>
+          </li>
+          <li class="nav__item">
+            <a href="#end" class="nav__link">THE END</a>
+          </li>
+          <li class="nav__item">
+            <a
+              href="./pdfCV/PhanVanNhac_CV2.pdf"
+              download
+              target="_blank"
+              class="nav__link nav__link--pdf"
+              >DOWNLOAD PDF
+              <i class="fa-solid fa-download margin-left4"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Mobile nav -->
+    <div class="nav--mobile">
+      <h2 class="heading--mobile">Phan Van Nhac</h2>
+      <input type="checkbox" name="menu--check" id="menu--check" hidden />
+      <label for="menu--check" class="icon__nav"
+        ><i class="fa-solid fa-list"></i
+      ></label>
+      <ul class="list--mobile"></ul>
+
+      <!-- list -->
+    </div>
+    <!-- main -->
+
+    <main class="main">
+      <!-- About me -->
+      <section class="about main-content" id="about">
+        <h1 id="about__username">Phan Van <span id="name">Nhac</span></h1>
+        <p class="heading--lv2">
+          <i class="fa-solid fa-suitcase mr4"></i> Frontend Developer Intern
+        </p>
+        <div class="light-switch"><i class="fa-solid fa-moon"></i></div>
+        <div class="about__desc mtb8">
+          <p>
+            Welcome to look at my profile! <br />
+            I am a passionate <strong>Front-end Developer</strong> with
+            experience in web projects using
+            <strong>HTML, CSS, and JavaScript</strong>. I am good at teamwork,
+            fast learning, and overcoming challenges with continuous effort.
+            <br />
+            My goal is to
+            <strong>become an excellent FrontEnd Developer</strong>, creating
+            high-quality products and adding value to the technology industry.”
+          </p>
+        </div>
+        <div class="contact">
+          <p class="contact__phone italic decs mtb4">
+            <i class="fa-solid fa-phone mr4"></i> 0981720761
+          </p>
+          <p class="contact__email italic decs mtb4">
+            <i class="fa-solid fa-envelope mr4"></i>
+            phannhac49@gmail.com
+          </p>
+          <div class="contact__bottom mtb8">
+            <span class="contact__icon mr8"
+              ><a href="https://www.facebook.com/ly.hungcham.3" target="_blank"
+                ><i class="fa-brands fa-facebook"></i></a></span
+            ><span class="contact__icon margin-left4"
+              ><a href="https://github.com/vannhac" target="_blank"
+                ><i class="fa-brands fa-github"></i></a
+            ></span>
+          </div>
+        </div>
+        <p class="about__quote mtb4 italic">
+          "Don’t let small obstacles be in the way of being victorious.
+          Remember, you are stronger than the challenges you face."
+        </p>
+      </section>
+      <!-- Education -->
+      <section class="main-content" data-aos="fade-up" id="education">
+        <h2 class="heading--lv2">
+          <i class="fa-solid fa-graduation-cap mr8"></i>Education
+        </h2>
+        <div class="introduce">
+          <div class="info">
+            <a
+              class="location gene__hover"
+              href="https://due.udn.vn/"
+              target="_blank"
+            >
+              University of Economics – The University of Danang
+              <i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+            <h2 class="desc--lv1">Management Information Systems</h2>
+          </div>
+          <span class="time gene__hover"
+            ><i class="fa-solid fa-calendar mr4"></i> 2021 - Now</span
+          >
+        </div>
+        <p class="desc--lv2">
+          <i class="fa-solid fa-graduation-cap mr4"></i><strong>GPA</strong>:
+          2.99/4.0 (Improved to 3.5/4.0 since 2023)
+        </p>
+        <p class="desc--lv2">
+          <i class="fa-solid fa-graduation-cap mr4"></i
+          ><strong>Relevant coursework:</strong> Web Design – Grade:
+          <strong>8.6/10</strong>, Object Oriented Progamming – Grade:
+          <strong>8.5/10</strong>
+        </p>
+      </section>
+      <!-- Project -->
+      <section class="main-content" data-aos="fade-up" id="project">
+        <h2 class="heading--lv2">
+          <i class="fa-solid fa-paintbrush mr8"></i>Projects
+        </h2>
+        <h2 class="desc--lv1">Here are my good projects:</h2>
+        <div class="project__grid">
+          <a
+            href="https://vannhac.github.io/Shine-Smile-Website/"
+            target="_blank"
+            class="box box1"
+          >
+            <div class="project__content">
+              <h3 class="project__heading">
+                Shine Smile
+                <i
+                  class="fa-solid fa-arrow-up-right-from-square margin-left4"
+                ></i>
+              </h3>
+              <p class="project__desc">
+                Developed a responsive landing page as part of the tuhoc.cc
+                coursework
+              </p>
+              <p class="project__desc">
+                <i class="fa-brands fa-html5"></i> JavaScript, HTML/CSS
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://vannhac.github.io/The-Besnik/"
+            target="_blank"
+            class="box box2"
+          >
+            <div class="project__content">
+              <h3 class="project__heading">
+                The Bensik
+                <i
+                  class="fa-solid fa-arrow-up-right-from-square margin-left4"
+                ></i>
+              </h3>
+              <p class="project__desc">
+                Developed a responsive landing page as part of the tuhoc.cc
+                coursework
+              </p>
+              <p class="project__desc">
+                <i class="fa-brands fa-html5"></i> HTML/CSS
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://vannhac.github.io/The-Lession-Website/"
+            target="_blank"
+            class="box box3"
+          >
+            <div class="project__content">
+              <h3 class="project__heading">
+                The Lesson
+                <i
+                  class="fa-solid fa-arrow-up-right-from-square margin-left4"
+                ></i>
+              </h3>
+              <p class="project__desc">
+                Developed a responsive landing page as part of the tuhoc.cc
+                coursework
+              </p>
+              <p class="project__desc">
+                <i class="fa-brands fa-html5"></i> JavaScript, HTML/CSS
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://vannhac.github.io/Web-band/"
+            target="_blank"
+            class="box box4"
+          >
+            <div class="project__content">
+              <h3 class="project__heading">
+                The Band
+                <i
+                  class="fa-solid fa-arrow-up-right-from-square margin-left4"
+                ></i>
+              </h3>
+              <p class="project__desc">
+                Coded a responsive band portfolio page as part of F8 course
+              </p>
+              <p class="project__desc">
+                <i class="fa-brands fa-html5"></i> JavaScript, HTML/CSS
+              </p>
+            </div>
+          </a>
+        </div>
+      </section>
+      <!-- Skill -->
+      <section class="main-content" data-aos="fade-up" id="skill">
+        <h2 class="heading--lv2">
+          <i class="fa-solid fa-lightbulb mr8"></i>Skills
+        </h2>
+        <h2 class="desc--lv1">Programming Languages & Tools:</h2>
+        <div class="skill__grid">
+          <div class="single--skill">
+            <div class="skill__row">
+              <span class="skill__icon"
+                ><i class="fa-brands fa-html5"></i
+              ></span>
+            </div>
+            <div class="skill__content">
+              <span class="skill__tiltle">HTML</span>
+              <span class="skill__measure">85%</span>
+              <span class="skill__bar">
+                <span class="skill_bar--after"></span>
+              </span>
+            </div>
+          </div>
+          <div class="single--skill">
+            <div class="skill__row">
+              <span class="skill__icon">
+                <i class="fa-brands fa-css3-alt"></i>
+              </span>
+            </div>
+            <div class="skill__content">
+              <span class="skill__tiltle">CSS</span>
+              <span class="skill__measure">80%</span>
+              <span class="skill__bar">
+                <span class="skill_bar--after"></span>
+              </span>
+            </div>
+          </div>
+          <div class="single--skill">
+            <div class="skill__row">
+              <span class="skill__icon"> <i class="fa-brands fa-js"></i> </span>
+            </div>
+            <div class="skill__content">
+              <span class="skill__tiltle">JavaScript</span>
+              <span class="skill__measure">70%</span>
+              <span class="skill__bar">
+                <span class="skill_bar--after"></span>
+              </span>
+            </div>
+          </div>
+          <div class="single--skill">
+            <div class="skill__row">
+              <span class="skill__icon">
+                <i class="fa-brands fa-github"></i>
+              </span>
+            </div>
+            <div class="skill__content">
+              <span class="skill__tiltle">Git</span>
+              <span class="skill__measure">60%</span>
+              <span class="skill__bar">
+                <span class="skill_bar--after"></span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="soft__skill">
+          <h2 class="desc--lv1">Soft Skills:</h2>
+
+          <p class="desc--lv2">
+            <i class="fa-solid fa-bullseye mr4"></i>
+            <strong>English: </strong> I can read technical documents and
+            communicate in English comfortably, improving my skills daily.
+          </p>
+          <p class="desc--lv2">
+            <i class="fa-solid fa-bullseye mr4"></i>
+            <strong> Git, Github for Teamwork </strong>
+          </p>
+          <p class="desc--lv2">
+            <i class="fa-solid fa-bullseye mr4"></i>
+            <strong> Responsive Web Design </strong>
+          </p>
+          <p class="desc--lv2 italic">
+            <i class="fa-solid fa-bullseye mr4"></i>
+            <strong> My Opinion: </strong> "Learning every day!"
+          </p>
+        </div>
+      </section>
+      <!-- Achievement -->
+      <section class="main-content" data-aos="fade-up" id="achievement">
+        <h2 class="heading--lv2">
+          <i class="fa-solid fa-star mr8"></i>Achievements
+        </h2>
+        <h2 class="desc--lv1">Here are my achievements :</h2>
+        <section class="achievement__grid">
+          <!-- BBE -->
+          <a
+            href="https://www.facebook.com/BBEPioneerChapter"
+            class="single-achievement"
+            target="_blank"
+          >
+            <div class="achieve__item">
+              <div class="achieve__icon">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="achieve__content">
+                <h3 class="achieve__heading">Member</h3>
+                <p class="achieve__desc">BBE Pioneer Chapter</p>
+                <span class="achieve__time"
+                  ><i class="fa-solid fa-calendar mr4"> </i>Jan 2024 – Sep
+                  2024</span
+                >
+              </div>
+            </div>
+          </a>
+          <!-- Volunteer -->
+          <a
+            href="https://www.facebook.com/groups/1734505237014194"
+            class="single-achievement"
+            target="_blank"
+          >
+            <div class="achieve__item">
+              <div class="achieve__icon">
+                <i class="fa-solid fa-hands-holding-child"></i>
+              </div>
+              <div class="achieve__content">
+                <h3 class="achieve__heading">Volunteer</h3>
+                <p class="achieve__desc">Nang Xuan IX – Gieo Mua Nang Am</p>
+                <span class="achieve__time"
+                  ><i class="fa-solid fa-calendar mr4"> </i>2024</span
+                >
+              </div>
+            </div>
+          </a>
+          <a href="" class="single-achievement" target="_blank">
+            <div class="achieve__item">
+              <div class="achieve__icon"><i class="fa-solid fa-2"></i></div>
+              <div class="achieve__content">
+                <h3 class="achieve__heading">Second Place</h3>
+                <p class="achieve__desc">Faculty Soccer Tournament</p>
+                <span class="achieve__time"
+                  ><i class="fa-solid fa-calendar mr4"></i>2025</span
+                >
+              </div>
+            </div>
+          </a>
+        </section>
+      </section>
+      <!-- Hobbies -->
+      <section class="main-content" data-aos="fade-up" id="hobbies">
+        <h2 class="heading--lv2">
+          <i class="fa-solid fa-heart mr8"></i>Hobbies
+        </h2>
+        <h2 class="desc--lv1">Here are my hobbies :</h2>
+        <section class="hobby__grid">
+          <div class="single-hobby">
+            <div class="hobby__item">
+              <div class="hobby__icon"><i class="fa-solid fa-book"></i></div>
+              <div class="hobby__content">
+                <h3 class="hobby__heading">Reading</h3>
+              </div>
+            </div>
+          </div>
+          <div class="single-hobby">
+            <div class="hobby__item">
+              <div class="hobby__icon"><i class="fa-solid fa-plus"></i></div>
+              <div class="hobby__content">
+                <h3 class="hobby__heading">Learning</h3>
+              </div>
+            </div>
+          </div>
+          <div class="single-hobby">
+            <div class="hobby__item">
+              <div class="hobby__icon">
+                <i class="fa-solid fa-dumbbell"></i>
+              </div>
+              <div class="hobby__content">
+                <h3 class="hobby__heading">Exercise</h3>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section id="end" data-aos="fade-up" class="main-content">
+        <h2 class="heading--lv2">The End</h2>
+        <h2 class="desc--lv1">
+          Finally, I'd want to say Thank You for taking your time to review my
+          CV. Have a nice day!
+        </h2>
+      </section>
+    </main>
+    <!-- education -->
+    <!-- Project -->
+    <!-- Hobbies -->
+    <!-- ENd -->
+
+    <!-- JS -->
+    <script src="./main.js"></script>
+    <!-- animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,183 @@
+/* Pc */
+@media (min-width: 998px) {
+  .nav--mobile {
+    display: none;
+  }
+}
+/* Mobile vs Tablet */
+@media (max-width: 997.98px) {
+  /* header */
+  #header {
+    display: none;
+  }
+  .nav--mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+    padding: 15px;
+    background-color: var(--main-color);
+    transition: 0.5s ease;
+  }
+
+  .heading--mobile {
+    font-size: 2rem;
+    color: #0c82f0;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .icon__nav {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 600;
+    padding: 9px;
+    box-shadow: 0 0 1px 0 currentColor;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    z-index: 5;
+  }
+  .nav__link {
+    padding: 14px 0;
+    display: block;
+  }
+
+  .nav__item:hover > a:not(.active):not(.nav__link--pdf) {
+    color: #fff;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  .icon__nav:hover {
+    cursor: pointer;
+    opacity: 0.85;
+  }
+  .list--mobile {
+    height: 0;
+    opacity: 0;
+    transform: translateY(-400px);
+    transition: 0.5s ease-out;
+  }
+  #menu--check:checked ~ .list--mobile {
+    transform: translateY(0);
+
+    opacity: 1;
+    height: 355px;
+  }
+  /* overlay */
+  /* =======================================main =======================================*/
+  .main {
+    margin-top: 50px;
+    margin-left: 0;
+  }
+}
+/* Tablet */
+@media (min-width: 768px) and (max-width: 997.98px) {
+  .time {
+    margin-top: 6px;
+    color: var(--dark--blue-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 16%;
+  }
+  /* Skill */
+  .skill__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .single-achievement {
+    min-height: 140px;
+  }
+  /* */
+}
+/* Mobile */
+@media (max-width: 767.98px) {
+  .desc--lv1 {
+    font-size: 2rem;
+    line-height: 1.6;
+  }
+  /* about */
+
+  #about__username {
+    font-size: 4rem;
+  }
+  .heading--lv2 {
+    font-size: 2.2rem;
+  }
+  .main-content {
+    padding: 20px 20px;
+  }
+  .about__desc > p {
+    padding: 14px;
+    white-space: normal;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  .decs {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    font-weight: 500;
+  }
+  .about__quote {
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+  /* Education */
+  .introduce {
+    flex-direction: column;
+  }
+  .location {
+    font-size: 2rem;
+  }
+  .time {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+    width: auto;
+  }
+  .desc--lv2 {
+    margin-bottom: 8px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.6;
+  }
+  /* Project */
+  .project__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 300px);
+    gap: 40px;
+  }
+  .project__heading {
+    font-size: 2.2rem;
+  }
+  .project__desc {
+    font-size: 1.8rem;
+    line-height: 1.8;
+  }
+  /* Skill */
+  .skill__grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  /* achievement */
+  .achievement__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    height: auto;
+    padding: 30px;
+    width: 100%;
+  }
+
+  /* hobby */
+  .hobby__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 40px;
+    padding: 35px;
+    border-radius: 20px;
+  }
+}

@@ -166,7 +166,7 @@ strong {
 /* =============================HEADER==================
  */
 html.dark #header {
-  background-color: #0c82f0;
+  background-color: hsl(208.95deg 100% 35.77% / 83%);
 }
 #header {
   background-color: var(--main-color);
@@ -526,7 +526,11 @@ html.dark .skill__grid .fa-github {
   column-gap: 10px;
   border: none;
   margin: 16px auto 0;
-  background: linear-gradient(to right, #ffffff9d, #fae8d4da 70%);
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    hsl(49.85deg 100% 51.72% / 52%)
+  );
   box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
 }
 .achievement__grid a {
@@ -611,14 +615,14 @@ html.dark .achievement__grid {
   border-radius: 20px;
   border: none;
   margin: 16px auto 0;
-  background: var(--main-color);
+  background: hsl(212.43deg 41.18% 19.71%);
   box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
   column-gap: 20px;
 }
 
 .single-hobby {
   transition: scale 0.3s ease, opacity 0.3s ease;
-  background: linear-gradient(to top right, #0c82f0, #b5abab);
+  background: linear-gradient(to top right, #0c82f0, hsl(0deg 0% 88.34%));
   border-radius: 10px;
   border: none;
   padding: 20px;

@@ -1,10 +1,11 @@
 # 📚 My Online CV
 
 This is a personal website built with HTML, CSS, and JavaScript, showcasing my Frontend skills and documenting my amazing projects on my journey to becoming a Frontend Developer. With a friendly interface, responsive, and light/dark mode, this CV is where I proudly share my achievements and passion! 🚀
-- **My CV on computer**
-  ![Computer](./img/pc.png)
-- **My CV on Mobile**
-  ![Computer](./img/Mobile.png)
+
+# My CV on:
+| Computer | Mobile|
+|------------|------------|
+| ![Ảnh 1](./img/pc.png)| ![Ảnh 2](./img/Mobile.png)|
 ## 🎯 Goal: 
 - Demonstrate your **HTML, CSS, JavaScript** skills through a beautiful and smooth interface.
 - Save the outstanding projects you have done in your programming journey.

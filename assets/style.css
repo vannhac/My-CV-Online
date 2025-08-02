@@ -190,6 +190,7 @@ html.dark #header {
   border-radius: 50%;
   object-fit: cover;
   border: 5px solid gray;
+  object-position: top;
 }
 .header__avatar:hover {
   opacity: 0.8;
